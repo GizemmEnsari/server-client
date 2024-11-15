@@ -3,7 +3,7 @@ import os
 import zipfile
 
 # client configuration
-HOST = '192.168.2.18'  # Gizem's (server's) IP address
+HOST = '192.168.0.0'  # server's IP address
 PORT = 65432  # The same port used by the server
 SAVE_PATH = 'D:/'  # Path to save the received files
 CHUNK_SIZE = 1024 * 1024  # 1 MB buffer size
